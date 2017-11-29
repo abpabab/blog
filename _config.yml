@@ -1,0 +1,27 @@
+title: abpabab
+email: abpabab@gmail.com
+description: a blog.
+url: https://abpabab.github.io/blog
+keywords: ["Programming", "PHP", "Ruby"]
+
+timezone:          Asia/Ho_Chi_Minh
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+owner:
+  name: abpabab
+  avatar: abpabab.png
+  job: "Linux system engineer & Python developer"
+  bio: "If you're going through hell, keep going." - `Winston Churchill`
+  email: abpabab@gmail.com
+  github: abpabab
+  linkedin: abpabab
