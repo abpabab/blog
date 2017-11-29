@@ -19,26 +19,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f5f5">
 
-  <!-- Twitter Tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ title }}">
-  <meta name="twitter:description" content="{{ description }}">
-  <meta name="twitter:image" content="{{ site.url }}/img/abpabab.png">
-
-  <!-- Open Graph Tags -->
-  <meta property="og:type" content="blog">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ description }}">
-  <meta property="og:image" content="{{ site.url }}/img/abpabab.png">
-  <title>{{ title }}</title>
-
   <!-- CSS files -->
   <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml " | prepend: site.url }}" />
 
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
