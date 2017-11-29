@@ -47,6 +47,7 @@
   .author_bio {
     font-size: 90%;
     display: block;
+    color: #fff;
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -90,6 +91,9 @@
       &:focus {
         color: lighten($secondary, 14%);
       }
+    }
+    span {
+      color: #bbb;
     }
   }
 }
